@@ -1,0 +1,29 @@
+.App{
+  background-color: rgb(3, 6, 53);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cards-container{
+  width: 1000px;
+  height: 600px;
+}
+.card{
+  display: inline-block;
+  margin: 5px ;
+  width: calc(250px - 10px);
+  height: calc(200px - 10px);
+  cursor: pointer;
+}
+.card:hover{
+  transform: scale(0.98);
+}
+.card-image{
+  width: calc(250px - 10px);
+  height: calc(200px - 10px);
+  border-radius: 8px;
+
+}
